@@ -1,0 +1,96 @@
+<!DOCTYPE html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>xxiixi html draft collection</h1>
+    <span>Title</span> <input type="text" placeholder="xxiixi" maxlength="10" />
+    <p>maxlength: 限制最大输入字符数</p>
+
+    <h2>1. select the language you want to learn (muti)</h2>
+    <span>html</span>
+    <input type="checkbox" name="html" id="html" />
+    <span>css</span>
+    <input type="checkbox" name="css" id="css" />
+    <span>javascript</span>
+    <input type="checkbox" name="javascript" id="javascript" />
+
+    <h2>2. select the language you want to learn (single)</h2>
+    <span>这里的name要设置成同一种，才能实现单选，表示数据名称是language</span>
+    <span>html</span>
+    <input type="radio" name="language" id="html" />
+    <span>css</span>
+    <input type="radio" name="language" id="css" />
+    <span>javascript</span>
+    <input type="radio" name="language" id="javascript" />
+
+    <h2>3. 多行输入的textarea</h2>
+    <p>默认右下角可以拖拽</p>
+    <textarea name="" id=""></textarea>
+    <div contenteditable="">contenteditable: 可编辑的div</div>
+    <p contenteditable="">contenteditable: 可编辑的p</p>
+
+    <h2>4. 下拉列表的标签们 select option</h2>
+    <label for="selection">selet one</label>
+    <select name="myselection" id="selection">
+      <option value="1">selection 1</option>
+      <option value="2">selection 2</option>
+      <option value="3">selection 3</option>
+    </select>
+    <div>label 中的for设置成select的id，这样点击文字的同时，选项的框也会出现</div>
+    <p></p>
+    <label for="groupselection">select from optgroup</label>
+    <select name="groupselection" id="">
+      <optgroup label="group1">
+        <option value="opiton1">option 1</option>
+        <option value="opiton2">option 2</option>
+      </optgroup>
+      <optgroup label="group2">
+        <option value="opiton3">option 3</option>
+        <option value="opiton4">option 4</option>
+      </optgroup>
+    </select>
+    <div>optgroup 需要添加label作为分组名称</div>
+    <p></p>
+    <label for="list">list</label>
+    <input list="list" />
+    <datalist id="list">
+      <option value="option1">opt 1</option>
+      <option value="option2">opt 2</option>
+      <option value="option3">opt 3</option>
+    </datalist>
+    <div>list: datalist的id，可以在输入框中选择，可以手动删除, 鼠标放上去会有个小三角。可以用作输入选项的提示</div>
+
+    <h2>5. Fieldset and legend</h2>
+    <form action="" method="">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" required/>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required/>
+            <label for="birthday">birthday</label>
+            <input type="date" name="birthday" id="birthday" />
+          </fieldset>
+      
+          <fieldset>
+              <legend>Accent Info</legend>
+              <label for="username">username</label>
+              <input type="text" name="username" id="username" />
+              <label for="password">password</label>
+              <input type="password" name="password" id="password" />
+              <label for="confirm">confirm</label>
+              <input type="password" name="confirm" id="confirm" />
+          </fieldset>
+          <button>submit</button>
+          <button type="reset">reset</button>
+    </form>
+    
+    <div>legend 用作不同板块的文字展示，一般来说用的不多</div>
+    <div>form最常用的属性是action和method</div>
+    <div>不一定需要用button来写按钮，任何一个元素都可以通过css和js来实现button功能</div>
+  </body>
+</html>
