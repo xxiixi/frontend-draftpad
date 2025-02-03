@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>表单标签总结练习</title>
+  </head>
+  <body>
+    <h1>信息登记</h1>
+    <form action="./xx/">
+      <div><span>Name: </span><input type="text" /></div>
+      <br />
+      <div><span>Phone: </span><input type="number" /></div>
+      <br />
+      <div>
+        <span>Gender: </span>
+        <label for="male-radio">Male</label>
+        <input type="radio" id="male-radio" name="gender" />
+        <label for="female-radio">Female</label>
+        <input type="radio" id="female-radio" name="gender" />
+      </div>
+
+      <br />
+
+      <div>
+        <span>Individual Resume</span>
+        <br />
+        <textarea name="resume" id="resume" cols="30" rows="10"></textarea>
+      </div>
+      <button>Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
