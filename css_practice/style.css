@@ -1,0 +1,27 @@
+/* div {
+  background-color: blueviolet;
+}
+span {
+  background-color: lightblue;
+} */
+
+.parent {
+  border: 2px solid red;
+  width: fit-content;
+  display: flex;
+}
+
+.child {
+  border: 2px solid green;
+  height: 100px;
+  width: 100px;
+  margin: 10px 20px;
+  padding: 20px;
+  background-color: lightblue;
+  background-clip: content-box;
+  /* padding-top: 100px; */
+}
+
+.box-child {
+  box-sizing: border-box;
+}
