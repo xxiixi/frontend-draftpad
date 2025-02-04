@@ -86,7 +86,7 @@ div {
 
 .part2 {
   width: 1100px;
-  height: 300px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -162,7 +162,7 @@ input::placeholder {
 
 .part3 {
   width: 1100px;
-  height: 300px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -171,7 +171,21 @@ input::placeholder {
 
 .part3-top {
   width: 800px;
-  height: 20px;
+  /* height: 40px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.left-text {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.right-text {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .part3-middle {
@@ -190,5 +204,39 @@ input::placeholder {
 
 .part3-bottom {
   width: 800px;
-  height: 50px;
+  /* height: 50px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* hr {
+  border-color: rgb(246, 246, 246);
+} */
+.line {
+  border: none;
+  border-top: 1px solid rgb(219, 219, 219);
+}
+
+.part3-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.part3-text-left {
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  color: gray;
+  gap: 10px;
+}
+.dot {
+  width: 20px;
+}
+.arrow {
+  width: 25px;
 }
