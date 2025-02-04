@@ -1,0 +1,18 @@
+.parent {
+  width: 800px;
+  height: 500px;
+  border: 2px solid orangered;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  /* padding: 0 10px; */
+  /* gap: 20px; */
+}
+
+.child {
+  width: 120px;
+  height: 60px;
+  background-color: cadetblue;
+}
