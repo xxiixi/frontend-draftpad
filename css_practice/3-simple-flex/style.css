@@ -86,26 +86,78 @@ div {
 
 .part2 {
   width: 1100px;
-  height: 360px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 20px;
   align-items: center;
 }
 
 .part2-top {
-  width: 800px;
-  height: 100px;
+  /* width: 800px;
+  height: 100px; */
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .part2-middle {
-  width: 600px;
-  height: 80px;
+  /* width: 600px;
+  height: 80px; */
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .part2-bottom {
-  width: 600px;
-  height: 80px;
+  /* width: 600px;
+  height: 80px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.part2-input-bar {
+  width: 250px;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.part2-img {
+  width: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  /* font-size: 16px;
+  font-weight: 800; */
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+  text-transform: capitalize;
+}
+
+.part2-sign-up {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  background-color: black;
 }
 
 .part3 {
