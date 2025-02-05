@@ -10,9 +10,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div {
-  /* border: 1px solid red; */
-}
+/* 添加border，用于布局显示，方便学习 */
+/* div {
+  border: 1px solid red;
+} */
 
 .container {
   height: 800px;
