@@ -70,6 +70,13 @@ body {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 900;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  /* background-color: black;
+  color: white; */
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .start-btn {
@@ -81,10 +88,22 @@ body {
   font-weight: 900;
   color: white;
   background-color: black;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  /* background-color: black;
+  color: white; */
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .list {
   width: 30px;
+  cursor: pointer;
+}
+
+.list:hover {
+  transform: scale(1.1);
 }
 
 .part2 {
@@ -162,6 +181,11 @@ input::placeholder {
   text-transform: capitalize;
   color: white;
   background-color: black;
+  cursor: pointer;
+}
+
+.part2-sign-up:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .part3 {
@@ -212,6 +236,11 @@ input::placeholder {
   /* justify-content: space-between; */
   gap: 10px;
   padding: 15px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px 0 rgba(126, 126, 126, 0.2);
 }
 
 .card-yellow {
