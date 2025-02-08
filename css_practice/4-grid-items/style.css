@@ -1,0 +1,76 @@
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 4rem;
+}
+
+
+
+.grid-box{
+  height: 600px;
+  width: 1000px;
+  background-color: black;
+  display: grid;
+  grid-template-columns:200px repeat(3,1fr);
+  grid-template-rows:200px repeat(3,1fr);
+  padding: 20px;
+  /* grid-auto-flow: column; */
+}
+
+
+.child{
+  padding: 20px;
+
+}
+
+.child1{
+  background-color: green;
+  /* height: 600px;
+  width: 600px; */
+  /* z-index: 1; */
+  /* order: 1; */
+}
+.child2{
+  background-color: yellowgreen;
+
+}
+
+.child3{
+  background-color: blueviolet;
+}
+.child4{
+  background-color: rgb(255, 105, 105);
+}
+.child5{
+  background-color: rgb(105, 110, 255);
+}
+.child6{
+  background-color: rgb(255, 105, 228);
+}
+.child7{
+  background-color: rgb(10, 200, 127);
+}
+.child8{
+  background-color: rgb(252, 204, 99);
+}
+.child9{
+  background-color: rgb(99, 214, 252);
+  /* grid-column-start:2;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 4; */
+  grid-column: 2 / 4;
+  grid-row: 1 / 4;
+}
+
+
+
