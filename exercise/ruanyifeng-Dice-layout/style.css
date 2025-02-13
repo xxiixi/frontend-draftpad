@@ -1,0 +1,86 @@
+/* 单项目 */
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(245, 196, 182);
+  padding: 8px;
+  border-radius: 10px;
+
+  /* --- 骰子的布局 --- */
+  display: flex;
+  /* 1. 设置项目对齐方式 */
+  justify-content: center;
+  /* justify-content: flex-end; */
+
+  /* 2. 设置交叉轴对齐方式 */
+  align-items: center;
+  /* align-items: flex-end; */
+}
+
+.item {
+  height: 28px;
+  width: 28px;
+  border-radius: 50px;
+  border: 3px solid rgb(255, 228, 228);
+  background-color: lightcoral;
+}
+
+/* 双项目 */
+.box-2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(245, 196, 182);
+  padding: 8px;
+  border-radius: 10px;
+
+  /* --- 骰子的布局 --- */
+  display: flex;
+  /* 1. 设置项目对齐方式 */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+
+  /* 2. 设置交叉轴对齐方式 */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+
+  /* 3. 设置主轴方向 */
+  flex-direction: column;
+}
+
+.item-2:nth-child(2) {
+  /* align-self: flex-end; */
+  align-self: center;
+}
+
+/* 三项目 */
+.box-3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(245, 196, 182);
+  padding: 8px;
+  border-radius: 10px;
+
+  /* --- 骰子的布局 --- */
+  display: flex;
+  /* 1. 设置项目对齐方式 */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+
+  /* 2. 设置交叉轴对齐方式 */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+
+  /* 3. 设置主轴方向 */
+  flex-direction: column;
+}
+
+.item-3:nth-child(2) {
+  /* align-self: flex-end; */
+  align-self: center;
+}
+
+.item-3:nth-child(3) {
+  align-self: flex-end;
+}
